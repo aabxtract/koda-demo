@@ -18,9 +18,11 @@ function get(path) {
 }
 
 describe('Fixture API', () => {
-  it('GET /health returns 200', async () => {
+  it('GET /health returns 200 and status ok', async () => {
     const res = await get('/health')
     assert.equal(res.status, 200)
+    const body = JSON.parse(res.body)
+    assert.equal(body.status, 'ok')
   })
   it('GET / returns 200', async () => {
     const res = await get('/')
