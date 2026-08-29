@@ -2,8 +2,8 @@ import http from 'node:http'
 
 export function handleRequest(req, res) {
   if (req.url === '/health') {
-    res.writeHead(500, { 'Content-Type': 'application/json' })
-    return res.end(JSON.stringify({ status: 'error' }))
+    res.writeHead(200, { 'Content-Type': 'application/json' })
+    return res.end(JSON.stringify({ status: 'ok' }))
   }
   if (req.url === '/') {
     res.writeHead(200, { 'Content-Type': 'text/html' })
