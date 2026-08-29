@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "version": "0.3.0",
+  "project": "fixture-app",
+  "kane": {
+    "target": "http://localhost:3456",
+    "headless": true,
+    "max_steps": 30,
+    "timeout_ms": 120000
+  },
+  "tests": {
+    "browser_flows": true,
+    "endpoint_tests": true,
+    "integration_tests": true,
+    "allow_mutating_methods": false,
+    "expected_statuses": {}
+  },
+  "cicd": {
+    "notify_on_push": true
+  },
+  "notify": {
+    "telegram": false,
+    "discord": false
+  }
+}

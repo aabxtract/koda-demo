@@ -1,0 +1,5 @@
+# Koda
+.koda/reports/
+.koda/memory/
+.koda/evidence/
+.koda/koda.log
