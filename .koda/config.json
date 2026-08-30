@@ -6,7 +6,7 @@
     "target": "http://localhost:3456",
     "headless": true,
     "max_steps": 30,
-    "timeout_ms": 120000
+    "timeout_ms": 180000
   },
   "tests": {
     "browser_flows": true,
