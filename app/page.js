@@ -1,2 +1,2 @@
-﻿export const title = 'Fixture App Home v6'
+﻿export const title = 'Fixture App Home v7'
 
