@@ -1,11 +1,7 @@
 name: Koda Verification
 "on":
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  push: null
+  pull_request: null
 jobs:
   koda-verify:
     runs-on: ubuntu-latest
